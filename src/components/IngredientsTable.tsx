@@ -1,6 +1,13 @@
 import { useMemo, useState } from "react";
 import { ExternalLink, Plus, Search, Trash2 } from "lucide-react";
-import { categories, categoryColor, isUrl, normalizeUrl, type Category } from "../data/ingredients";
+import {
+    categories,
+    categoryColor,
+    ingredientUnits,
+    isUrl,
+    normalizeUrl,
+    type Category,
+} from "../data/ingredients";
 import { useIngredients } from "../hooks/useIngredients";
 import { columnDivider, fieldClass, noSpinner } from "../lib/ui";
 import IngredientIcon from "./IngredientIcon";
@@ -127,11 +134,20 @@ export default function IngredientsTable() {
                                                 className={`${fieldClass} ${noSpinner} w-24 text-right text-fg`}
                                             />
                                             <span className="text-muted">/</span>
-                                            <input
+                                            <select
                                                 value={item.unit}
                                                 onChange={(event) => update(item.id, { unit: event.target.value })}
-                                                className={`${fieldClass} w-14 text-muted`}
-                                            />
+                                                className={`${fieldClass} w-16 cursor-pointer text-muted`}
+                                            >
+                                                {(ingredientUnits.includes(item.unit)
+                                                    ? ingredientUnits
+                                                    : [item.unit, ...ingredientUnits]
+                                                ).map((unit) => (
+                                                    <option key={unit} value={unit} className="bg-surface text-fg">
+                                                        {unit}
+                                                    </option>
+                                                ))}
+                                            </select>
                                         </div>
                                     </td>
                                     <td className={cell(columnDivider)}>

@@ -34,6 +34,8 @@ export interface Ingredient {
     thresholds?: { high: number; normal: number; low: number };
 }
 
+export const ingredientUnits = ["g", "kg", "pcs", "ml", "l"];
+
 export const makeId = () => Math.random().toString(36).slice(2, 10);
 
 export const makeBatchId = () => Math.random().toString(36).slice(2, 10);
