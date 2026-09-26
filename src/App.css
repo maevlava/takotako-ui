@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-bg text-fg font-sans;
+  }
+}
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+
+  /* Catppuccin Mocha */
+  --color-bg: #1e1e2e;
+  --color-bg-dim: #181825;
+  --color-surface: #313244;
+  --color-surface-hover: #45475a;
+  --color-border: #45475a;
+  --color-fg: #cdd6f4;
+  --color-muted: #a6adc8;
+  --color-faint: #7f849c;
+  --color-red: #f38ba8;
+  --color-orange: #fab387;
+  --color-yellow: #f9e2af;
+  --color-green: #a6e3a1;
+  --color-aqua: #94e2d5;
+  --color-blue: #89b4fa;
+  --color-purple: #cba6f7;
+  --color-lavender: #b4befe;
+
+  --animate-fade: fade 0.25s ease-out;
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
