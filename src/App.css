@@ -8,7 +8,6 @@
 
 @theme {
   --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
-
   /* Catppuccin Mocha */
   --color-bg: #1e1e2e;
   --color-bg-dim: #181825;
@@ -26,6 +25,24 @@
   --color-blue: #89b4fa;
   --color-purple: #cba6f7;
   --color-lavender: #b4befe;
+
+  /* Everforest Dark */
+  /* --color-bg: #2d353b;
+  --color-bg-dim: #232a2e;
+  --color-surface: #343f44;
+  --color-surface-hover: #475258;
+  --color-border: #4f585e;
+  --color-fg: #d3c6aa;
+  --color-muted: #9da9a0;
+  --color-faint: #859289;
+  --color-red: #e67e80;
+  --color-orange: #e69875;
+  --color-yellow: #dbbc7f;
+  --color-green: #a7c080;
+  --color-aqua: #83c092;
+  --color-blue: #7fbbb3;
+  --color-purple: #d699b6;
+  --color-lavender: #d699b6; */
 
   --animate-fade: fade 0.25s ease-out;
 
