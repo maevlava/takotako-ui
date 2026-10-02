@@ -23,6 +23,8 @@ export function useOrders() {
     const update = (id: string, patch: Partial<Order>) =>
         setOrders((prev) => prev.map((order) => (order.id === id ? { ...order, ...patch } : order)));
     const remove = (id: string) => setOrders((prev) => prev.filter((order) => order.id !== id));
+    const append = (items: Order[]) => setOrders((prev) => [...prev, ...items]);
+    const replaceAll = (items: Order[]) => setOrders(items);
 
-    return { orders, update, remove };
+    return { orders, update, remove, append, replaceAll };
 }

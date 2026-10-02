@@ -2,15 +2,26 @@ import { useState } from "react";
 import { Canvas } from "../components/Canvas";
 import AccountingSummary from "../components/AccountingSummary";
 import EntriesTable from "../components/EntriesTable";
-import ProfitLoss from "../components/ProfitLoss";
+import FinancialStatements from "../components/FinancialStatements";
+import InventoryAccounting from "../components/InventoryAccounting";
+import UnitEconomics from "../components/UnitEconomics";
 import { useAccounting } from "../hooks/useAccounting";
+import type { Entry } from "../data/accounting";
 
-const sections = ["Ringkasan", "Pendapatan", "Pengeluaran", "Laba Rugi"] as const;
+const sections = ["Ringkasan", "Pendapatan", "Pengeluaran", "Laba Rugi", "Inventory", "Unit Economics"] as const;
 type Section = (typeof sections)[number];
 
 export default function Accounting() {
-    const { entries, add, update, remove } = useAccounting();
+    const { entries, add, update, remove, append, replaceAll } = useAccounting();
     const [section, setSection] = useState<Section>("Ringkasan");
+
+    const handleImport = (items: Entry[], mode: "append" | "replace") => {
+        if (mode === "replace") {
+            replaceAll(items);
+        } else {
+            append(items);
+        }
+    };
 
     return (
         <Canvas>
@@ -37,6 +48,7 @@ export default function Accounting() {
                         onAdd={add}
                         onUpdate={update}
                         onDelete={remove}
+                        onImport={handleImport}
                     />
                 )}
                 {section === "Pengeluaran" && (
@@ -46,10 +58,14 @@ export default function Accounting() {
                         onAdd={add}
                         onUpdate={update}
                         onDelete={remove}
+                        onImport={handleImport}
                     />
                 )}
-                {section === "Laba Rugi" && <ProfitLoss entries={entries} />}
+                {section === "Laba Rugi" && <FinancialStatements entries={entries} />}
+                {section === "Inventory" && <InventoryAccounting entries={entries} />}
+                {section === "Unit Economics" && <UnitEconomics entries={entries} />}
             </div>
         </Canvas>
     );
 }
+

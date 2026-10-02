@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { ExternalLink, Plus, Search, Trash2 } from "lucide-react";
+import { ExternalLink, Plus, Search, Trash2, Upload } from "lucide-react";
 import {
     categories,
     categoryColor,
@@ -8,9 +8,11 @@ import {
     normalizeUrl,
     type Category,
 } from "../data/ingredients";
+import { importIngredientRows, ingredientTemplate } from "../data/import";
 import { useIngredients } from "../hooks/useIngredients";
 import { columnDivider, fieldClass, noSpinner } from "../lib/ui";
 import IngredientIcon from "./IngredientIcon";
+import ImportDialog from "./ImportDialog";
 import SortHeader from "./SortHeader";
 
 type SortKey = "name" | "category" | "price" | "supplier";
@@ -23,9 +25,10 @@ const sortLabels: { key: SortKey; label: string }[] = [
 ];
 
 export default function IngredientsTable() {
-    const { items, update, add, remove } = useIngredients();
+    const { items, update, add, remove, append, replaceAll } = useIngredients();
     const [query, setQuery] = useState("");
     const [sort, setSort] = useState<{ key: SortKey; dir: "asc" | "desc" }>({ key: "name", dir: "asc" });
+    const [importing, setImporting] = useState(false);
 
     const toggleSort = (key: SortKey) =>
         setSort((prev) => (prev.key === key ? { key, dir: prev.dir === "asc" ? "desc" : "asc" } : { key, dir: "asc" }));
@@ -63,6 +66,12 @@ export default function IngredientsTable() {
                 </div>
                 <div className="flex items-center gap-4">
                     <span className="text-sm text-muted">{items.length} bahan</span>
+                    <button
+                        onClick={() => setImporting(true)}
+                        className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-2 text-sm text-muted transition-colors hover:text-fg"
+                    >
+                        <Upload size={15} /> Import
+                    </button>
                     <button
                         onClick={add}
                         className="flex items-center gap-1.5 rounded-lg bg-green px-3 py-2 text-sm font-semibold text-bg transition-opacity hover:opacity-90"
@@ -185,6 +194,27 @@ export default function IngredientsTable() {
                 </table>
                 {visible.length === 0 && <p className="py-8 text-center text-sm text-muted">Tidak ada bahan.</p>}
             </div>
+
+            {importing && (
+                <ImportDialog
+                    title="Ingredients"
+                    hint="Import daftar bahan dari CSV/Excel."
+                    template={ingredientTemplate}
+                    templateName="template-ingredients.csv"
+                    onImport={(rows, mode) => {
+                        const result = importIngredientRows(rows);
+                        if (result.items.length > 0) {
+                            if (mode === "replace") {
+                                replaceAll(result.items);
+                            } else {
+                                append(result.items);
+                            }
+                        }
+                        return result.errors;
+                    }}
+                    onClose={() => setImporting(false)}
+                />
+            )}
         </div>
     );
 }

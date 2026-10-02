@@ -43,6 +43,8 @@ export function useIngredients() {
 
     const add = () => setItems((prev) => [...prev, newIngredient()]);
     const remove = (id: string) => setItems((prev) => prev.filter((item) => item.id !== id));
+    const append = (next: Ingredient[]) => setItems((prev) => [...prev, ...next]);
+    const replaceAll = (next: Ingredient[]) => setItems(next);
 
-    return { items, update, add, remove };
+    return { items, update, add, remove, append, replaceAll };
 }

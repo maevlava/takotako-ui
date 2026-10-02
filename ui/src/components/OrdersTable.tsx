@@ -1,20 +1,24 @@
 import { Fragment, useState } from "react";
-import { ChevronRight, Download, Pencil } from "lucide-react";
+import { ChevronRight, Download, Pencil, Upload } from "lucide-react";
 import { formatRupiah } from "../data/ingredients";
 import { formatDay, type Order } from "../data/orders";
+import { importOrderRows, orderTemplate } from "../data/import";
 import { downloadCsv } from "../lib/csv";
 import { columnDivider } from "../lib/ui";
+import ImportDialog from "./ImportDialog";
 
 interface OrdersTableProps {
     orders: Order[];
     onEdit: (order: Order) => void;
+    onImport: (items: Order[], mode: "append" | "replace") => void;
 }
 
 const PER_PAGE = 10;
 
-export default function OrdersTable({ orders, onEdit }: OrdersTableProps) {
+export default function OrdersTable({ orders, onEdit, onImport }: OrdersTableProps) {
     const [page, setPage] = useState(1);
     const [openId, setOpenId] = useState<string | null>(null);
+    const [importing, setImporting] = useState(false);
 
     const sorted = [...orders].sort((a, b) => `${b.date} ${b.time}`.localeCompare(`${a.date} ${a.time}`));
     const totalPages = Math.max(1, Math.ceil(sorted.length / PER_PAGE));
@@ -49,12 +53,20 @@ export default function OrdersTable({ orders, onEdit }: OrdersTableProps) {
         <div>
             <div className="mb-3 flex items-center justify-between gap-3">
                 <span className="text-sm text-muted">{sorted.length} order</span>
-                <button
-                    onClick={exportCsv}
-                    className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-2 text-sm text-muted transition-colors hover:text-fg"
-                >
-                    <Download size={15} /> Export CSV
-                </button>
+                <div className="flex items-center gap-2">
+                    <button
+                        onClick={() => setImporting(true)}
+                        className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-2 text-sm text-muted transition-colors hover:text-fg"
+                    >
+                        <Upload size={15} /> Import
+                    </button>
+                    <button
+                        onClick={exportCsv}
+                        className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-2 text-sm text-muted transition-colors hover:text-fg"
+                    >
+                        <Download size={15} /> Export CSV
+                    </button>
+                </div>
             </div>
 
             <div className="overflow-x-auto">
@@ -183,6 +195,21 @@ export default function OrdersTable({ orders, onEdit }: OrdersTableProps) {
                     </button>
                 </div>
             </div>
+
+            {importing && (
+                <ImportDialog
+                    title="Orders"
+                    hint="Import order dari CSV/Excel. Beberapa baris dengan orderId sama = satu order."
+                    template={orderTemplate}
+                    templateName="template-orders.csv"
+                    onImport={(rows, mode) => {
+                        const result = importOrderRows(rows);
+                        if (result.items.length > 0) onImport(result.items, mode);
+                        return result.errors;
+                    }}
+                    onClose={() => setImporting(false)}
+                />
+            )}
         </div>
     );
 }

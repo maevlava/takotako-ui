@@ -1,11 +1,13 @@
 import { useMemo, useState } from "react";
-import { Download, Pencil, Plus, Search, Trash2 } from "lucide-react";
+import { Download, Pencil, Plus, Search, Trash2, Upload } from "lucide-react";
 import { formatRupiah } from "../data/ingredients";
 import { formatDay } from "../data/orders";
 import { type Entry, type EntryType } from "../data/accounting";
 import { seedOutlets } from "../data/outlets";
+import { accountingTemplate, importAccountingRows } from "../data/import";
 import { downloadCsv } from "../lib/csv";
 import EntryModal from "./EntryModal";
+import ImportDialog from "./ImportDialog";
 
 interface EntriesTableProps {
     type: EntryType;
@@ -13,6 +15,7 @@ interface EntriesTableProps {
     onAdd: (data: Omit<Entry, "id">) => void;
     onUpdate: (id: string, patch: Partial<Entry>) => void;
     onDelete: (id: string) => void;
+    onImport: (items: Entry[], mode: "append" | "replace") => void;
 }
 
 const PER_PAGE = 10;
@@ -21,7 +24,7 @@ const outletName = (id: string) => seedOutlets.find((outlet) => outlet.id === id
 const dateInputClass =
     "rounded-lg border border-border bg-bg px-2 py-2 text-sm text-fg outline-none transition-colors focus:border-lavender";
 
-export default function EntriesTable({ type, entries, onAdd, onUpdate, onDelete }: EntriesTableProps) {
+export default function EntriesTable({ type, entries, onAdd, onUpdate, onDelete, onImport }: EntriesTableProps) {
     const [query, setQuery] = useState("");
     const [outlet, setOutlet] = useState("all");
     const [from, setFrom] = useState("");
@@ -29,6 +32,7 @@ export default function EntriesTable({ type, entries, onAdd, onUpdate, onDelete 
     const [page, setPage] = useState(1);
     const [editing, setEditing] = useState<Entry | null>(null);
     const [adding, setAdding] = useState(false);
+    const [importing, setImporting] = useState(false);
 
     const filtered = useMemo(() => {
         const q = query.trim().toLowerCase();
@@ -120,6 +124,12 @@ export default function EntriesTable({ type, entries, onAdd, onUpdate, onDelete 
                     <span className="text-sm text-muted">
                         Total <span className={`font-semibold ${accent}`}>{formatRupiah(total)}</span>
                     </span>
+                    <button
+                        onClick={() => setImporting(true)}
+                        className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-2 text-sm text-muted transition-colors hover:text-fg"
+                    >
+                        <Upload size={15} /> Import
+                    </button>
                     <button
                         onClick={exportCsv}
                         className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-2 text-sm text-muted transition-colors hover:text-fg"
@@ -217,6 +227,20 @@ export default function EntriesTable({ type, entries, onAdd, onUpdate, onDelete 
                     initial={editing}
                     onSave={(data) => onUpdate(editing.id, data)}
                     onClose={() => setEditing(null)}
+                />
+            )}
+            {importing && (
+                <ImportDialog
+                    title="Accounting"
+                    hint="Import pendapatan & pengeluaran dari CSV/Excel."
+                    template={accountingTemplate}
+                    templateName="template-accounting.csv"
+                    onImport={(rows, mode) => {
+                        const result = importAccountingRows(rows);
+                        if (result.items.length > 0) onImport(result.items, mode);
+                        return result.errors;
+                    }}
+                    onClose={() => setImporting(false)}
                 />
             )}
         </div>

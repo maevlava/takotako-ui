@@ -25,6 +25,8 @@ export function useAccounting() {
     const update = (id: string, patch: Partial<Entry>) =>
         setEntries((prev) => prev.map((entry) => (entry.id === id ? { ...entry, ...patch } : entry)));
     const remove = (id: string) => setEntries((prev) => prev.filter((entry) => entry.id !== id));
+    const append = (items: Entry[]) => setEntries((prev) => [...prev, ...items]);
+    const replaceAll = (items: Entry[]) => setEntries(items);
 
-    return { entries, add, update, remove };
+    return { entries, add, update, remove, append, replaceAll };
 }

@@ -26,7 +26,7 @@ const dateInputClass =
     "rounded-md border border-border bg-bg px-2 py-1 text-sm text-fg outline-none transition-colors focus:border-lavender";
 
 export default function OutletDetail({ outlet, onBack }: { outlet: Outlet; onBack: () => void }) {
-    const { orders, update } = useOrders();
+    const { orders, update, append, replaceAll } = useOrders();
     const { menus } = useMenus();
     const { items: ingredients } = useIngredients();
     const [mode, setMode] = useState<"all" | "range">("range");
@@ -174,7 +174,18 @@ export default function OutletDetail({ outlet, onBack }: { outlet: Outlet; onBac
             </Panel>
 
             <Panel title="Daftar Order" className="mt-4">
-                <OrdersTable key={filterKey} orders={scoped} onEdit={(order) => setEditing(order)} />
+                <OrdersTable
+                    key={filterKey}
+                    orders={scoped}
+                    onEdit={(order) => setEditing(order)}
+                    onImport={(items, mode) => {
+                        if (mode === "replace") {
+                            replaceAll(items);
+                        } else {
+                            append(items);
+                        }
+                    }}
+                />
             </Panel>
 
             {editing && (
