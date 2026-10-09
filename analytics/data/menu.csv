@@ -90,6 +90,43 @@ O-Takoyaki Jatiasih,Pop Dak Ganyong 6,45500,0,3
 O-Takoyaki Jatiasih,Pop Dak Ganyong 3,18000,0,0
 O-Takoyaki Jatiasih,Ayam Ganyong 6 Sayap,45500,0,4
 O-Takoyaki Jatiasih,Okonomiyaki Special price,33350,1,17
+O-Takoyaki Legok,Takoyaki 4 Octopus,14500,32,700
+O-Takoyaki Legok,Takoyaki 4 Crab,14500,13,100
+O-Takoyaki Legok,Takoyaki 4 Sosis,14500,4,100
+O-Takoyaki Legok,Takoyaki 8 Crab,29000,13,200
+O-Takoyaki Legok,Takoyaki 8 Sosis,29000,7,200
+O-Takoyaki Legok,Takoyaki 8 Octopus,29000,66,2000
+O-Takoyaki Legok,"Takoyaki 16 Mix O,C,B",41800,191,3000
+O-Takoyaki Legok,"Takoyaki 16 Crab, Octo",58000,8,200
+O-Takoyaki Legok,"Takoyaki 16 Sosis, Octo",58000,4,66
+O-Takoyaki Legok,"Takoyaki 16 Crab, Sosis",58000,4,56
+O-Takoyaki Legok,Takoyaki 16 Crabstick,58000,1,29
+O-Takoyaki Legok,Takoyaki 16 Sosis,58000,0,51
+O-Takoyaki Legok,Takoyaki 16 Octopus,58000,58,1000
+O-Takoyaki Legok,Okonomiyaki Octopus,33350,96,1000
+O-Takoyaki Legok,Okonomiyaki Crabstick,33350,11,100
+O-Takoyaki Legok,Okonomiyaki Sosis,33350,7,100
+O-Takoyaki Legok,Hotang Reguler,15950,24,700
+O-Takoyaki Legok,Hotmie Reguler,14500,3,94
+O-Takoyaki Legok,Hotmie Mulur,26100,1,35
+O-Takoyaki Legok,Hotmie Mozarella,33350,1,16
+O-Takoyaki Legok,Hotcrumb Reguler,14500,0,30
+O-Takoyaki Legok,Hotcrumb Mulur,26100,2,26
+O-Takoyaki Legok,Hotcrumb Mozarella,33350,1,13
+O-Takoyaki Legok,Hotang Besar,23200,20,200
+O-Takoyaki Legok,Hotang Mulur,26100,26,500
+O-Takoyaki Legok,Hotang Mozarella,33350,17,300
+O-Takoyaki Legok,MyuRang Reguler,14500,16,200
+O-Takoyaki Legok,MyuRang Mulur,26100,9,300
+O-Takoyaki Legok,MyuRang Mozarella,33350,16,300
+O-Takoyaki Legok,Corndog Mozarella Choco,34800,33,800
+O-Takoyaki Legok,Takoyaki 4 C.Cheese,18850,9,100
+O-Takoyaki Legok,Takoyaki 8 C.Cheese,36250,4,100
+O-Takoyaki Legok,Takoyaki 4 Fire,18850,5,53
+O-Takoyaki Legok,Takoyaki 8 Fire,36250,1,40
+O-Takoyaki Legok,Okonomiyaki U.Cheese Octopus,47850,11,100
+O-Takoyaki Legok,Okonomiyaki U.Cheese Crabstick,47850,1,11
+O-Takoyaki Legok,Okonomiyaki U.Cheese Sosis,47850,1,7
 Kedai kita roti bakar premium & takoyaki,Takoyaki keju isi 10,30000,2,52
 Kedai kita roti bakar premium & takoyaki,Takoyaki sosis isi 10,25000,4,100
 Takoyaki N Corndog Bagol,Corndog mozarella + kentang,21500,8,100
@@ -267,3 +304,85 @@ Warung Mamah Aini,Okonomiyaki Mozachan,40000,0,6
 Warung Mamah Aini,Okonomiyaki Kembang Cumi,40000,1,8
 Warung Mamah Aini,Okonomiyaki Daging Kebab,40000,1,6
 Warung Mamah Aini,Okonomiyaki Takosama,46000,0,12
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki sosis 6pcs,19100,16,400
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki kornet 6pcs,19100,13,300
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki bakso 6pcs,19050,8,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki kepiting 6pcs,21250,26,300
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki roll ikan 6pcs,20300,4,63
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki mozzarella 6pcs,21300,37,900
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki gurita olahan 6pcs,21250,42,1000
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki sosis 15pcs,39950,5,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki kornet 15pcs,39950,5,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki bakso 15pcs,39950,7,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki kepiting 15pcs,42500,10,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki roll ikan 15pcs,40950,3,67
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki mozzarella 15pcs,42500,46,900
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki gurita olahan 15pcs,42500,65,1000
+Takoyaki Cober Mandala - Bekasi Selatan,( B1G1 ) 15 gurita olahan +15 mozzarella+6 roll ikan,93000,5,86
+Takoyaki Cober Mandala - Bekasi Selatan,( B1G1 ) 15 kepiting+15 gurita olahan+6 roll ikan,93000,3,41
+Takoyaki Cober Mandala - Bekasi Selatan,( BUY 2 GET 3 )15 Mozarella+15 kepiting+6 roll ikan,93000,1,21
+Takoyaki Cober Mandala - Bekasi Selatan,( BUY 2 GET 3 ) 6 gurita olahan+6 kepiting+6 bakso,56650,3,100
+Takoyaki Cober Mandala - Bekasi Selatan,( BUY 2 GET 3 ) 6 gurita olahan+6 Mozarella+6 bakso,56650,17,200
+Takoyaki Cober Mandala - Bekasi Selatan,( BUY 2 GET 3 ) 6 kepiting+6 Mozarella+6 bakso,56650,6,200
+Takoyaki Cober Mandala - Bekasi Selatan,( BUY 2 GET 3 ) 15 kornet +15 sosis +6 bakso,87750,10,29
+Takoyaki Cober Mandala - Bekasi Selatan,( BUY 2 GET 3 ) 6 kornet +6 sosis +6 bakso,52500,64,1000
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki sosis 10pcs,28800,8,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki kornet 10pcs,28800,9,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki bakso 10pcs,28800,10,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki roll ikan 10pcs,29000,3,30
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki mozzarella 10pcs,31900,17,300
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki kepiting 10pcs,31900,2,78
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki gurita olahan 10pcs,31900,13,400
+Takoyaki Cober - pd kelapa,Takoyaki sosis 6 pcs,19550,3,23
+Takoyaki Cober - pd kelapa,Takoyaki kornet 6 pcs,19550,0,26
+Takoyaki Cober - pd kelapa,Takoyaki bakso 6 pcs,19550,0,4
+Takoyaki Cober - pd kelapa,Takoyaki fishroll 6 pcs,20300,0,2
+Takoyaki Cober - pd kelapa,Takoyaki kepiting 6 pcs,21350,1,15
+Takoyaki Cober - pd kelapa,Takoyaki Mozarella 6 pcs,21250,0,44
+Takoyaki Cober - pd kelapa,Takoyaki kepiting 10 pcs,33000,0,3
+Takoyaki Cober - pd kelapa,Takoyaki Mozarella 10 pcs,33000,1,17
+Takoyaki Cober - pd kelapa,Takoyaki gurita olahan 10 pcs,33000,3,35
+Takoyaki Cober - pd kelapa,Takoyaki mix 10 pcs,33000,4,74
+Takoyaki Cober - pd kelapa,Takoyaki sosis 15 pcs,39950,1,10
+Takoyaki Cober - pd kelapa,Takoyaki kornet 15 pcs,39650,0,6
+Takoyaki Cober - pd kelapa,Takoyaki gurita olahan 6 pcs,21350,1,42
+Takoyaki Cober - pd kelapa,Takoyaki mix 6 pcs,21250,2,42
+Takoyaki Cober - pd kelapa,Takoyaki sosis 10 pcs,27200,0,14
+Takoyaki Cober - pd kelapa,Takoyaki kornet 10 pcs,27200,0,8
+Takoyaki Cober - pd kelapa,Takoyaki bakso 10 pcs,27000,0,4
+Takoyaki Cober - pd kelapa,Takoyaki fishroll 10 pcs,30000,0,0
+Takoyaki Cober - pd kelapa,Takoyaki bakso 15 pcs,39650,0,0
+Takoyaki Cober - pd kelapa,Takoyaki fishroll 15 pcs,40950,1,6
+Takoyaki Cober - pd kelapa,Takoyaki kepiting 15 pcs,42250,0,13
+Takoyaki Cober - pd kelapa,Takoyaki Mozarella 15 pcs,42250,6,40
+Takoyaki Cober - pd kelapa,Takoyaki gurita olahan 15 pcs,42500,5,91
+Takoyaki Cober - pd kelapa,Takoyaki mix 15 pcs,42500,6,100
+Takoyaki Cober - pd kelapa,15pcs Mozarella+15pcs kepiting+6pcs fishroll,86800,0,4
+Takoyaki Cober - pd kelapa,15pcs gurita olahan+15pcs Mozarella+6pcs fishroll,86800,0,1
+Takoyaki Cober - pd kelapa,15pcs Kepiting+15 gurita olahan+6pcs fishroll,86800,0,6
+Takoyaki Cober - pd kelapa,15pcs kornet+15pcs sosis+6pcs fishroll,81900,0,1
+Takoyaki Cober - pd kelapa,6pcs gurita olahan+6pcs kepiting+6pcs sosis,52500,0,7
+Takoyaki Cober - pd kelapa,6pcs gurita olahan+6pcs Mozarella+6pcs sosis,52500,0,16
+Takoyaki Cober - pd kelapa,6pcs kepiting+6pcs Mozarella+6pcs sosis,52500,0,2
+Takoyaki Cober - pd kelapa,6pcs sosis+6pcs kornet+6pcs bakso,49000,0,1
+Takoyaki Cober - Kayuringin,Takoyaki gurita olahan 6pcs,17500,5,200
+Takoyaki Cober - Kayuringin,Takoyaki sosis 10pcs,30000,6,60
+Takoyaki Cober - Kayuringin,Takoyaki kornet 10pcs,30000,0,40
+Takoyaki Cober - Kayuringin,Takoyaki bakso 10pcs,30000,0,21
+Takoyaki Cober - Kayuringin,Takoyaki foshroll 10pcs,31200,1,7
+Takoyaki Cober - Kayuringin,Takoyaki mozarella 10pcs,33000,2,100
+Takoyaki Cober - Kayuringin,Takoyaki kepiting 10pcs,33000,0,21
+Takoyaki Cober - Kayuringin,Takoyaki gurita olahan 10pcs,33000,6,100
+Takoyaki Cober - Kayuringin,Takoyaki sosis 15pcs,39650,1,33
+Takoyaki Cober - Kayuringin,Takoyaki bakso 15pcs,39650,1,19
+Takoyaki Cober - Kayuringin,Takoyaki kornet 15pcs,39500,2,30
+Takoyaki Cober - Kayuringin,Takoyaki fishroll 15pcs,40750,0,11
+Takoyaki Cober - Kayuringin,Takotaki sosis 6pcs,16100,7,100
+Takoyaki Cober - Kayuringin,Takoyaki bakso 6pcs,16100,6,61
+Takoyaki Cober - Kayuringin,Takoyaki kornet 6pcs,16100,1,53
+Takoyaki Cober - Kayuringin,Takoyaki fishroll 6pcs,16800,0,28
+Takoyaki Cober - Kayuringin,Takoyaki mozarella 6pcs,17500,5,100
+Takoyaki Cober - Kayuringin,Takoyaki kepiting 6pcs,17500,6,74
+Takoyaki Cober - Kayuringin,Takoyaki mozarella 15pcs,42000,10,100
+Takoyaki Cober - Kayuringin,Takoyaki kepiting 15pcs,41600,1,32
+Takoyaki Cober - Kayuringin,Takoyaki gurita olahan 15pcs,42000,10,400

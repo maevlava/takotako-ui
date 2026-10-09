@@ -1,0 +1,419 @@
+restoran,menu,harga,likes,terjual
+O-Takoyaki Jatiranggon,"Takoyaki 16 Mix3 O,C,B",46400,13,300
+O-Takoyaki Jatiranggon,"Takoyaki 16 Sosis, Crab",58000,12,100
+O-Takoyaki Jatiranggon,"Takoyaki 16 Octo, Sosis",58000,6,100
+O-Takoyaki Jatiranggon,"Takoyaki 16 Octo, Crab",58000,6,200
+O-Takoyaki Jatiranggon,Takoyaki 16 Octopus,58000,67,1000
+O-Takoyaki Jatiranggon,Takoyaki 16 Crabstick,58000,2,36
+O-Takoyaki Jatiranggon,Takoyaki 16 Sosis,58000,2,78
+O-Takoyaki Jatiranggon,Takoyaki 8 Octopus,29000,78,1000
+O-Takoyaki Jatiranggon,Takoyaki 8 Crabstick,29000,15,200
+O-Takoyaki Jatiranggon,Takoyaki 8 Sosis,29000,12,200
+O-Takoyaki Jatiranggon,Takoyaki 4 Octopus,15000,23,500
+O-Takoyaki Jatiranggon,Takoyaki 4 Crabstick,15000,11,100
+O-Takoyaki Jatiranggon,Takoyaki 4 Sosis,15000,8,100
+O-Takoyaki Jatiranggon,Hotang Reguler,18000,35,600
+O-Takoyaki Jatiranggon,Hotang Besar,25000,12,200
+O-Takoyaki Jatiranggon,Hotang Mulur,27000,14,27000
+O-Takoyaki Jatiranggon,Hotang Mozarella,34000,1,56
+O-Takoyaki Jatiranggon,Hotmie Reguler,18000,3,89
+O-Takoyaki Jatiranggon,Hotmie Besar,25000,0,9
+O-Takoyaki Jatiranggon,Hotmie Mulur,27000,2,49
+O-Takoyaki Jatiranggon,Hotmie Mozarella,34000,1,7
+O-Takoyaki Jatiranggon,Myu Rang Reguler,18000,14,200
+O-Takoyaki Jatiranggon,Myu Rang Besar,25000,2,28
+O-Takoyaki Jatiranggon,Myu Rang Mulur,27000,10,300
+O-Takoyaki Jatiranggon,Hot Crumb Reguler,18000,1,18
+O-Takoyaki Jatiranggon,Hot Crumb Besar,25000,0,1
+O-Takoyaki Jatiranggon,Hot Crumb Mulur,27000,0,21
+O-Takoyaki Jatiranggon,Takoyaki Creamy Cheese 4,22000,9,100
+O-Takoyaki Jatiranggon,Takoyaki Creamy Cheese 8,40000,9,100
+O-Takoyaki Jatiranggon,Oko Ultimate Cheese Sosis,46200,3,41
+O-Takoyaki Jatiranggon,Oko Ultimate Cheese Octopus,46200,100,7
+O-Takoyaki Jatiranggon,Oko Ultimate Cheese Crabstick,46000,3,29
+O-Takoyaki Jatiranggon,Corndog Mozarella Choco,35000,2,88
+O-Takoyaki Jatiranggon,Okonomiyaki Octopus,32200,81,1000
+O-Takoyaki Jatiranggon,Okonomiyaki Crabstic,32200,11,100
+O-Takoyaki Jatiranggon,Okonomiyaki Sosis,32200,11,200
+O-Takoyaki Jatiranggon,Takoyaki 4 Firetopus,25000,1,23
+O-Takoyaki Jatiranggon,Takoyaki 8 Firetopus,50000,1,25
+O-Takoyaki Jatiranggon,Takoyaki Seaweed 4,16000,1,6
+O-Takoyaki Jatiranggon,Takoyaki Seaweed 8,27500,0,9
+O-Takoyaki Jatiasih,"Takoyaki 16 Mix O,C,B Special price",58000,43,900
+O-Takoyaki Jatiasih,Takoyaki 8 Pcs Mix,28000,1,16
+O-Takoyaki Jatiasih,Hotang Reguler,15590,7,100
+O-Takoyaki Jatiasih,Hotang Besar,25000,1,35
+O-Takoyaki Jatiasih,Hotang Mulur,26100,3,100
+O-Takoyaki Jatiasih,Myurang Reguler,14500,3,61
+O-Takoyaki Jatiasih,Myurang Besar,25000,3,13
+O-Takoyaki Jatiasih,Myurang Mulur,26100,3,77
+O-Takoyaki Jatiasih,Hotmie Reguler,14500,2,20
+O-Takoyaki Jatiasih,Hotmie Besar,25000,0,3
+O-Takoyaki Jatiasih,Hotmie Mulur,26100,0,10
+O-Takoyaki Jatiasih,Hotcrumb Reguler,14500,0,11
+O-Takoyaki Jatiasih,Hotcrumb Besar,25000,0,4
+O-Takoyaki Jatiasih,Hotcrumb Mulur,26100,1,8
+O-Takoyaki Jatiasih,Takoyaki 4 Octopus,14500,4,100
+O-Takoyaki Jatiasih,Takoyaki 4 Sosis,14500,0,20
+O-Takoyaki Jatiasih,Takoyaki 4 Crab,14500,0,33
+O-Takoyaki Jatiasih,Takoyaki 8 Octopus,29000,6,300
+O-Takoyaki Jatiasih,Takoyaki 8 Sosis,29000,0,29
+O-Takoyaki Jatiasih,Takoyaki 8 Crab,29000,0,21
+O-Takoyaki Jatiasih,Takoyaki 16 Octopus,58000,11,100
+O-Takoyaki Jatiasih,"Takoyaki 16 Octo, Sosis",58000,0,2
+O-Takoyaki Jatiasih,"Takoyaki 16 Octo, Crab",58000,0,3
+O-Takoyaki Jatiasih,"Takoyaki 16 Crab, Sosis",58000,0,3
+O-Takoyaki Jatiasih,"Takoyaki 16 Octo, Crab",58000,0,3
+O-Takoyaki Jatiasih,"Takoyaki 16 Mix O,C,B",58000,14,200
+O-Takoyaki Jatiasih,Okonomiyaki Octopus,333500,14,400
+O-Takoyaki Jatiasih,Okonomiyaki Sosis,333500,1,37
+O-Takoyaki Jatiasih,Okonomiyaki Crabstick,333500,0,52
+O-Takoyaki Jatiasih,Okonomiyaki Ultimate Cheese Octopus,47850,2,26
+O-Takoyaki Jatiasih,Okonomiyaki Ultimate Cheese Crabstick,47850,0,5
+O-Takoyaki Jatiasih,Okonomiyaki Ultimate Cheese Sosis,47850,1,3
+O-Takoyaki Jatiasih,Takoyaki 4 C Cheese Octopus,20800,2,36
+O-Takoyaki Jatiasih,Takoyaki 4 C Cheese Crabstick,20800,0,4
+O-Takoyaki Jatiasih,Takoyaki 4 C Cheese Sosis,18200,9,9
+O-Takoyaki Jatiasih,Takoyaki 8 C Cheese Octopus,35000,1,31
+O-Takoyaki Jatiasih,Takoyaki 8 C Cheese Crab,35000,0,4
+O-Takoyaki Jatiasih,Takoyaki 8 Ultimate Cheese Sosis,35000,2,10
+O-Takoyaki Jatiasih,Okonomiyaki Ultimate Cheese Ayam,47850,0,3
+O-Takoyaki Jatiasih,Takoyaki 4 Fire Octopus,20800,1,31
+O-Takoyaki Jatiasih,Takoyaki 4 Fire Crab,20800,0,0
+O-Takoyaki Jatiasih,Takoyaki 4 Fire Sosis,20800,0,0
+O-Takoyaki Jatiasih,Takoyaki 8 Fire Sosis,40000,1,1
+O-Takoyaki Jatiasih,Takoyaki 8 Fire Crab,40000,0,1
+O-Takoyaki Jatiasih,Corndog Mozarella Choco,34450,1,26
+O-Takoyaki Jatiasih,Topokki Ori,35000,0,4
+O-Takoyaki Jatiasih,Topokki Ori Cheese,42000,0,4
+O-Takoyaki Jatiasih,Pop Dak Ganyong 6,45500,0,3
+O-Takoyaki Jatiasih,Pop Dak Ganyong 3,18000,0,0
+O-Takoyaki Jatiasih,Ayam Ganyong 6 Sayap,45500,0,4
+O-Takoyaki Jatiasih,Okonomiyaki Special price,33350,1,17
+O-Takoyaki Legok,Takoyaki 4 Octopus,14500,32,700
+O-Takoyaki Legok,Takoyaki 4 Crab,14500,13,100
+O-Takoyaki Legok,Takoyaki 4 Sosis,14500,4,100
+O-Takoyaki Legok,Takoyaki 8 Crab,29000,13,200
+O-Takoyaki Legok,Takoyaki 8 Sosis,29000,7,200
+O-Takoyaki Legok,Takoyaki 8 Octopus,29000,66,2000
+O-Takoyaki Legok,"Takoyaki 16 Mix O,C,B",41800,191,3000
+O-Takoyaki Legok,"Takoyaki 16 Crab, Octo",58000,8,200
+O-Takoyaki Legok,"Takoyaki 16 Sosis, Octo",58000,4,66
+O-Takoyaki Legok,"Takoyaki 16 Crab, Sosis",58000,4,56
+O-Takoyaki Legok,Takoyaki 16 Crabstick,58000,1,29
+O-Takoyaki Legok,Takoyaki 16 Sosis,58000,0,51
+O-Takoyaki Legok,Takoyaki 16 Octopus,58000,58,1000
+O-Takoyaki Legok,Okonomiyaki Octopus,33350,96,1000
+O-Takoyaki Legok,Okonomiyaki Crabstick,33350,11,100
+O-Takoyaki Legok,Okonomiyaki Sosis,33350,7,100
+O-Takoyaki Legok,Hotang Reguler,15950,24,700
+O-Takoyaki Legok,Hotmie Reguler,14500,3,94
+O-Takoyaki Legok,Hotmie Mulur,26100,1,35
+O-Takoyaki Legok,Hotmie Mozarella,33350,1,16
+O-Takoyaki Legok,Hotcrumb Reguler,14500,0,30
+O-Takoyaki Legok,Hotcrumb Mulur,26100,2,26
+O-Takoyaki Legok,Hotcrumb Mozarella,33350,1,13
+O-Takoyaki Legok,Hotang Besar,23200,20,200
+O-Takoyaki Legok,Hotang Mulur,26100,26,500
+O-Takoyaki Legok,Hotang Mozarella,33350,17,300
+O-Takoyaki Legok,MyuRang Reguler,14500,16,200
+O-Takoyaki Legok,MyuRang Mulur,26100,9,300
+O-Takoyaki Legok,MyuRang Mozarella,33350,16,300
+O-Takoyaki Legok,Corndog Mozarella Choco,34800,33,800
+O-Takoyaki Legok,Takoyaki 4 C.Cheese,18850,9,100
+O-Takoyaki Legok,Takoyaki 8 C.Cheese,36250,4,100
+O-Takoyaki Legok,Takoyaki 4 Fire,18850,5,53
+O-Takoyaki Legok,Takoyaki 8 Fire,36250,1,40
+O-Takoyaki Legok,Okonomiyaki U.Cheese Octopus,47850,11,100
+O-Takoyaki Legok,Okonomiyaki U.Cheese Crabstick,47850,1,11
+O-Takoyaki Legok,Okonomiyaki U.Cheese Sosis,47850,1,7
+Kedai kita roti bakar premium & takoyaki,Takoyaki keju isi 10,30000,2,52
+Kedai kita roti bakar premium & takoyaki,Takoyaki sosis isi 10,25000,4,100
+Takoyaki N Corndog Bagol,Corndog mozarella + kentang,21500,8,100
+Takoyaki N Corndog Bagol,Corndog Full Mozarella,17500,38,700
+Takoyaki N Corndog Bagol,Corndog Coklat,17500,47,1000
+Takoyaki N Corndog Bagol,Corndog Matcha,17500,7,91
+Takoyaki N Corndog Bagol,Corndog Tiramisu,17500,4,100
+Takoyaki N Corndog Bagol,Corndog Mozarella + sosis,17500,9,200
+Takoyaki N Corndog Bagol,Corndog kentang mozarella + sosis + kentang,21500,4,100
+Takoyaki N Corndog Bagol,Takoyaki isi 6 ball mix,15000,9,100
+Takoyaki N Corndog Bagol,Takoyaki keju 6 ball,15000,1,52
+Takoyaki N Corndog Bagol,Takoyaki fish cake 6 ball,15000,1,3
+Takoyaki N Corndog Bagol,Takoyaki salmon 6 ball,15000,0,27
+Takoyaki N Corndog Bagol,Takoyaki kornet sapi 6 ball,15000,0,23
+Takoyaki N Corndog Bagol,Takoyaki sosis beef 6 ball,15000,2,18
+Takoyaki N Corndog Bagol,Takoyaki Mix 12 ball,27000,7,300
+Takoyaki N Corndog Bagol,Takoyaki Mix Keju 12 ball,27000,9,100
+Takoyaki N Corndog Bagol,Takoyaki fish cake 12 ball,27000,3,14
+Takoyaki N Corndog Bagol,Takoyaki Kornet Beef 12 ball,27000,0,40
+Takoyaki N Corndog Bagol,Takoyaki keju 12 ball,27000,0,40
+Takoyaki N Corndog Bagol,Takoyaki Sosis 12 ball,27000,1,3
+Takoyaki N Corndog Bagol,Takoyaki Mix 12 ball No Katsubushi,22700,3,100
+Takoyaki N Corndog Bagol,Takoyaki Mix Keju 12 ball No Katsubushi,22700,7,37
+Takoyaki N Corndog Bagol,Takoyaki fish cake 12 ball No Katsubushi,22700,0,4
+Takoyaki N Corndog Bagol,Takoyaki salmon 12 ball no katsubushi,22700,0,19
+Takoyaki N Corndog Bagol,Takoyaki keju 12 ball No Katsubushi,22700,0,18
+Takoyaki N Corndog Bagol,Takoyaki Sosis lada hitam 12 ball No Katsubushi,22700,0,4
+Takoyaki N Corndog Bagol,Takoyaki Kornet Beef 12 ball no katsubushi,22700,0,16
+Takoyaki N Corndog Bagol,Takoyaki Mix 8 ball,20000,6,100
+Takoyaki N Corndog Bagol,Takoyaki Salmon 8 ball,20000,1,8
+Takoyaki N Corndog Bagol,Takoyaki keju 8 ball,20000,0,29
+Takoyaki N Corndog Bagol,Takoyaki Sosis Beef 8 ball,20000,3,10
+Takoyaki N Corndog Bagol,Takoyaki Kornet Beef 8 ball,20000,0,4
+Takoyaki N Corndog Bagol,Takoyaki Mix 8 ball No katsubushi,15000,1,36
+Takoyaki N Corndog Bagol,Takoyaki Salmon 8 ball No katsubushi,15000,1,15
+Takoyaki N Corndog Bagol,Takoyaki Fish Cake 8 ball No katsubushi,15000,0,6
+Takoyaki N Corndog Bagol,Takoyaki Sausage 8 ball No katsubushi,15000,0,7
+Takoyaki N Corndog Bagol,Takoyaki Keju 8 ball No katsubushi,15000,0,14
+Takoyaki N Corndog Bagol,Takoyaki Kornet Beef 8 ball No katsubushi,15000,0,8
+Takonichiwa,Takoyaki isi 8 + ChocoChan 150ml,50000,0,0
+Takonichiwa,Okomoiyaki 1 varian + ChocoChan 250ml,50000,0,0
+Takonichiwa,Tako 1 Varian 8,30000,1,15
+Takonichiwa,Tako Mix 8,33000,3,35
+Takonichiwa,Tako Gurita 8,38000,3,28
+Takonichiwa,Tako 1 Varian 12,42000,0,15
+Takonichiwa,Tako Mix 12,45000,4,30
+Takonichiwa,Tako Gurita 12,52000,20,60
+Takonichiwa,Okonomiyaki 1 Varian,30000,2,7
+Takonichiwa,Okonomiyaki Mix Varian,48000,6,48
+Takonichiwa,Okonomiyaki Gurita,38000,5,39
+Takonichiwa,ChocoChan 250ml,30000,0,0
+Takonichiwa,ChocoChan 150ml,25000,0,0
+Takonichiwa,Tako ChesMay 1 varian 8,32000,1,1
+Takonichiwa,Tako ChesMay Mix 8,35000,0,4
+Takonichiwa,Tako ChesMay Gurita 8,32000,2,3
+Takonichiwa,Tako ChesMay 1 varian 12,44000,0,0
+Takonichiwa,Tako ChesMay Mix 12,47000,0,7
+Takonichiwa,Tako ChesMay Gurita 12,54000,2,9
+Dapoer Bysby,Takoyaki 4 Gurita,17750,32,700
+Dapoer Bysby,Takoyaki 4 Mozarella,17750,52,700
+Dapoer Bysby,Takoyaki 4 Crabstick,17750,28,300
+Dapoer Bysby,Takoyaki 4 Keju,17750,12,100
+Dapoer Bysby,Takoyaki 4 Sosis,17750,10,100
+Dapoer Bysby,Takoyaki 4 Mercon,17750,14,100
+Dapoer Bysby,Takoyaki 8 Gurita,33000,120,1000
+Dapoer Bysby,Takoyaki 8 Mozarella,33000,78,900
+Dapoer Bysby,Takoyaki 8 Crabstick,33000,40,400
+Dapoer Bysby,Takoyaki 8 Keju,33000,12,200
+Dapoer Bysby,Takoyaki 8 Sosis,33000,10,100
+Dapoer Bysby,Takoyaki 8 Mercon,33000,12,100
+Dapoer Bysby,Takoyaki 15 Gurita,57000,65,800
+Dapoer Bysby,Takoyaki 15 Mozarella,57000,14,200
+Dapoer Bysby,Takoyaki 15 Crabstick,57000,40,400
+Dapoer Bysby,Takoyaki 15 Keju,57000,5,58
+Dapoer Bysby,Takoyaki 15 Sosis,57000,3,34
+Dapoer Bysby,Takoyaki 15 Mercon,57000,2,8
+Dapoer Bysby,Takoyaki 15 Mix,57000,54,800
+Dapoer Bysby,Okonomiyaki Gurita,35500,79,900
+Dapoer Bysby,Okonomiyaki Mozarella,35500,38,300
+Dapoer Bysby,Okonomiyaki Crabstick,35500,21,100
+Dapoer Bysby,Okonomiyaki Keju,35500,8,73
+Dapoer Bysby,Okonomiyaki Sosis,35500,3,78
+Dapoer Bysby,Okonomiyaki Mix,35500,51,600
+Es Buah Jelly & Takoyaki,Takoyaki sosis 8 no katsuobushi,32000,1,80
+Es Buah Jelly & Takoyaki,Takoyaki keju 8 no katsuobushi,32000,2,70
+Es Buah Jelly & Takoyaki,Takoyaki smoke beef 8 no katsuobushi,32000,7,100
+Es Buah Jelly & Takoyaki,Takoyaki crabstick 8 no katsuobushi,32000,3,41
+Es Buah Jelly & Takoyaki,Takoyaki octopus 12 no katsuobushi,45000,8,80
+Es Buah Jelly & Takoyaki,Takoyaki sosis 12 no katsuobushi,45000,2,62
+Es Buah Jelly & Takoyaki,Takoyaki keju 12 no katsuobushi,45000,6,95
+Es Buah Jelly & Takoyaki,Takoyaki crabstick 12 no katsuobushi,45000,5,61
+Es Buah Jelly & Takoyaki,Takoyaki smoke beef 12 no katsuobushi,45000,0,72
+Es Buah Jelly & Takoyaki,Takoyaki keju 8,36000,3,82
+Es Buah Jelly & Takoyaki,Takoyaki sosis 8,36000,0,15
+Es Buah Jelly & Takoyaki,Takoyaki crabstick 8,36000,2,38
+Es Buah Jelly & Takoyaki,Takoyaki smoke beef 8,36000,3,53
+Es Buah Jelly & Takoyaki,Takoyaki octopus 8,40000,8,200
+Es Buah Jelly & Takoyaki,Takoyaki keju 12,42000,4,100
+Es Buah Jelly & Takoyaki,Takoyaki sosis 12,42000,2,20
+Es Buah Jelly & Takoyaki,Takoyaki crabstick 12,42000,2,92
+Es Buah Jelly & Takoyaki,Takoyaki smoke beef 12,42000,4,94
+Es Buah Jelly & Takoyaki,Takoyaki octopus 12,50000,16,200
+Es Buah Jelly & Takoyaki,Takoyaki octopus saus mentai pedas 12,55000,3,40
+Es Buah Jelly & Takoyaki,Takoyaki crabstick saus mentai pedas 12,55000,1,6
+Es Buah Jelly & Takoyaki,Takoyaki keju saus mentai pedas 12,55000,0,4
+Es Buah Jelly & Takoyaki,Takoyaki sosis saus mentai pedas 12,55000,0,0
+Es Buah Jelly & Takoyaki,Takoyaki smoke beef saus mentai pedas 12,55000,0,7
+Es Buah Jelly & Takoyaki,Okonomiyaki octopus,37000,3,29
+Es Buah Jelly & Takoyaki,Okonomiyaki crabstick,33000,0,2
+Es Buah Jelly & Takoyaki,Okonomiyaki mix,37000,11,55
+Es Buah Jelly & Takoyaki,Okonomiyaki sosis,33000,0,3
+Es Buah Jelly & Takoyaki,Okonomiyaki keju,33000,1,5
+Es Buah Jelly & Takoyaki,Okonomiyaki smoke beef,33000,0,8
+Piscok Crispy Parpostel,Takoyaki isi sosis daun bawang 10,22000,7,65
+Cipto Kitchen,"Takoyaki 5 Mix Regular (Octopus, Salmon, Crabstick, Meatball, Sosis)",33000,5,100
+Cipto Kitchen,"Takoyaki 5 Mix Regular (Mozarella, Chikuwa, Fish Roll, Mix Veg, Beef Burger)",33000,0,66
+Cipto Kitchen,"Takoyaki Jumbo 10 (Octopus, Mozarella, Crabstick, Chikuwa, Salmon Ball, Fish Roll, Meatball, Mix Veg, Sosis, Beef Burger)",64000,3,100
+Cipto Kitchen,TAKOYAKI REGULAR - Chikuwa,29500,4,24
+Cipto Kitchen,TAKOYAKI REGULAR - Fish Roll,29500,0,7
+Cipto Kitchen,TAKOYAKI REGULAR - Mix Vegetable,24000,1,11
+Cipto Kitchen,TAKOYAKI REGULAR - Beef Burger,24000,3,70
+Cipto Kitchen,TAKOYAKI REGULAR - Octopus,33000,60,1000
+Cipto Kitchen,TAKOYAKI REGULAR - Salmon Ball,33000,31,300
+Cipto Kitchen,TAKOYAKI REGULAR - Crabstick,29500,23,300
+Cipto Kitchen,TAKOYAKI REGULAR - Meatball,24000,21,200
+Cipto Kitchen,TAKOYAKI REGULAR - Sosis,24000,25,300
+Cipto Kitchen,TAKOYAKI JUMBO - Chikuwa,55000,0,8
+Cipto Kitchen,TAKOYAKI JUMBO - Fish Roll,55000,0,7
+Cipto Kitchen,TAKOYAKI JUMBO - Mix Vegetable,46000,1,6
+Cipto Kitchen,TAKOYAKI JUMBO - Beef Burger,46000,2,30
+Cipto Kitchen,TAKOYAKI JUMBO - Octopus,64000,55,700
+Cipto Kitchen,TAKOYAKI JUMBO - Salmon Ball,55000,14,100
+Cipto Kitchen,TAKOYAKI JUMBO - Crabstick,55000,11,100
+Cipto Kitchen,TAKOYAKI JUMBO - Meatball,46000,11,100
+Cipto Kitchen,TAKOYAKI JUMBO - Sosis,46000,5,100
+Takoyaki Cemiwiw,Takoyaki crabstick isi 6 pcs,24900,3,100
+Takoyaki Cemiwiw,Takoyaki keju isi 6 pcs,24900,4,98
+Takoyaki Cemiwiw,Takoyaki sosis isi 6 pcs,24900,0,38
+Takoyaki Cemiwiw,Takoyaki bakso isi 6 pcs,24900,0,17
+Takoyaki Cemiwiw,Takoyaki mozarella isi 6 pcs,24900,5,97
+Takoyaki Cemiwiw,Takoyaki keju + crabs isi 10 pcs,38900,4,98
+Takoyaki Cemiwiw,Takoyaki keju isi 10 pcs,38900,3,100
+Takoyaki Cemiwiw,Takoyaki crab stick isi 10 pcs,38900,1,73
+Takoyaki Cemiwiw,Takoyaki chikuwa isi 10 pcs,38900,0,8
+Takoyaki Cemiwiw,Takoyaki isi keju mouzarella 10 pcs,39900,3,100
+Takoyaki Cemiwiw,Takoyaki isi sosis 10 pcs,38900,0,24
+Takoyaki Cemiwiw,Takoyaki isi campur 10 pcs,38900,6,200
+Takoyaki Cemiwiw,Takoyaki isi campur 15 pcs,49900,25,400
+Warung Mamah Aini,Takoyaki Originaru 10,23000,10,300
+Warung Mamah Aini,Takoyaki Soosejikun 10,25000,2,57
+Warung Mamah Aini,Takoyaki Mitoborusan ( Bakso ),25000,1,24
+Warung Mamah Aini,Takoyaki Sumokubiifusan (Beef ) 10,25000,1,32
+Warung Mamah Aini,Takoyaki Kornet Chicken 10,25000,4,100
+Warung Mamah Aini,Takoyaki Chikuwa 10,25000,5,31
+Warung Mamah Aini,Takoyaki Bakso Salmon 10,25000,6,100
+Warung Mamah Aini,Takoyaki Duo Twister 10,25000,1,13
+Warung Mamah Aini,Takoyaki Beef Patties 10,27000,4,78
+Warung Mamah Aini,Takoyaki Crab Stick 10,27000,8,89
+Warung Mamah Aini,Takoyaki Chiizukun ( Keju ) 10,30000,1,100
+Warung Mamah Aini,Takoyaki Kembang Cumi 10,30000,1,62
+Warung Mamah Aini,Takoyaki Daging Kebab 10,35000,1,13
+Warung Mamah Aini,Takoyaki Takosama ( Gurita ) 10,40000,0,74
+Warung Mamah Aini,Takoyaki Mozachan ( Mozarella ),40000,0,5
+Warung Mamah Aini,Okonomiyaki Originaru,30000,5,100
+Warung Mamah Aini,Okonomiyaki Mitoborusan,35000,0,25
+Warung Mamah Aini,Okonomiyaki Sosejikun,35000,0,13
+Warung Mamah Aini,Okonomiyaki Kornet Chicken,38000,2,7
+Warung Mamah Aini,Okonomiyaki Chikuwa,38000,2,2
+Warung Mamah Aini,Okonomiyaki Bakso Salmon,38000,1,4
+Warung Mamah Aini,Okonomiyaki Duo Twister,38000,0,1
+Warung Mamah Aini,Okonomiyaki Crab Stick,38000,1,11
+Warung Mamah Aini,Okonomiyaki Beef Patties,40000,0,24
+Warung Mamah Aini,Okonomiyaki Chiizukun,40000,0,16
+Warung Mamah Aini,Okonomiyaki Mozachan,40000,0,6
+Warung Mamah Aini,Okonomiyaki Kembang Cumi,40000,1,8
+Warung Mamah Aini,Okonomiyaki Daging Kebab,40000,1,6
+Warung Mamah Aini,Okonomiyaki Takosama,46000,0,12
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki sosis 6pcs,19100,16,400
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki kornet 6pcs,19100,13,300
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki bakso 6pcs,19050,8,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki kepiting 6pcs,21250,26,300
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki roll ikan 6pcs,20300,4,63
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki mozzarella 6pcs,21300,37,900
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki gurita olahan 6pcs,21250,42,1000
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki sosis 15pcs,39950,5,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki kornet 15pcs,39950,5,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki bakso 15pcs,39950,7,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki kepiting 15pcs,42500,10,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki roll ikan 15pcs,40950,3,67
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki mozzarella 15pcs,42500,46,900
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki gurita olahan 15pcs,42500,65,1000
+Takoyaki Cober Mandala - Bekasi Selatan,( B1G1 ) 15 gurita olahan +15 mozzarella+6 roll ikan,93000,5,86
+Takoyaki Cober Mandala - Bekasi Selatan,( B1G1 ) 15 kepiting+15 gurita olahan+6 roll ikan,93000,3,41
+Takoyaki Cober Mandala - Bekasi Selatan,( BUY 2 GET 3 )15 Mozarella+15 kepiting+6 roll ikan,93000,1,21
+Takoyaki Cober Mandala - Bekasi Selatan,( BUY 2 GET 3 ) 6 gurita olahan+6 kepiting+6 bakso,56650,3,100
+Takoyaki Cober Mandala - Bekasi Selatan,( BUY 2 GET 3 ) 6 gurita olahan+6 Mozarella+6 bakso,56650,17,200
+Takoyaki Cober Mandala - Bekasi Selatan,( BUY 2 GET 3 ) 6 kepiting+6 Mozarella+6 bakso,56650,6,200
+Takoyaki Cober Mandala - Bekasi Selatan,( BUY 2 GET 3 ) 15 kornet +15 sosis +6 bakso,87750,10,29
+Takoyaki Cober Mandala - Bekasi Selatan,( BUY 2 GET 3 ) 6 kornet +6 sosis +6 bakso,52500,64,1000
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki sosis 10pcs,28800,8,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki kornet 10pcs,28800,9,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki bakso 10pcs,28800,10,100
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki roll ikan 10pcs,29000,3,30
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki mozzarella 10pcs,31900,17,300
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki kepiting 10pcs,31900,2,78
+Takoyaki Cober Mandala - Bekasi Selatan,Takoyaki gurita olahan 10pcs,31900,13,400
+Takoyaki Cober Villa - Gunung Putri,(Buy 2 get 3) 15 kepiting+ 15 gurita olahan+ 6 fishroll,93000,0,6
+Takoyaki Cober Villa - Gunung Putri,(Buy 2 get 3) 15 kepiting+ 15 mozarella+ 6 fishroll,93000,0,6
+Takoyaki Cober Villa - Gunung Putri,(Buy 2 get 3) 15 kornet+ 15 sosis+ 6 fishroll,87750,0,4
+Takoyaki Cober Villa - Gunung Putri,(Buy 2 get 3) 6 gurita olahan+ 6 kepiting + 6 fishroll,56250,2,34
+Takoyaki Cober Villa - Gunung Putri,(Buy 2 get 3) 6 gurita olahan+ 6 mozarella+ 6 fishroll,56250,3,100
+Takoyaki Cober Villa - Gunung Putri,(Buy 2 geti 3) 6 kepiting+ 6 mozarella+ 6 fishroll,56250,0,17
+Takoyaki Cober Villa - Gunung Putri,Takoyaki kepiting 10pcs,33000,4,69
+Takoyaki Cober Villa - Gunung Putri,Takoyaki gurita olahan 10pcs,33000,14,300
+Takoyaki Cober Villa - Gunung Putri,Takoyaki kornet 10pcs,30000,0,12
+Takoyaki Cober Villa - Gunung Putri,Takoyaki sosis 15pcs,39650,7,63
+Takoyaki Cober Villa - Gunung Putri,Takoyaki bakso 15pcs,39950,1,47
+Takoyaki Cober Villa - Gunung Putri,Takoyaki kornet 15pcs,39650,1,39
+Takoyaki Cober Villa - Gunung Putri,Takoyaki roll ikan 15pcs,40950,3,17
+Takoyaki Cober Villa - Gunung Putri,Takoyaki mozarella 15pcs,42500,5,300
+Takoyaki Cober Villa - Gunung Putri,Takoyaki kepiting 15pcs,42250,4,60
+Takoyaki Cober Villa - Gunung Putri,Takoyaki sosis 15pcs,39950,0,8
+Takoyaki Cober Villa - Gunung Putri,Takoyaki gurita olahan 15pcs,42500,25,500
+Takoyaki Cober Villa - Gunung Putri,(Buy 2 get 3) 15 gurita olahan + 15 mozarella + 6 fish roll,93000,0,40
+Takoyaki Cober Villa - Gunung Putri,Takoyaki sosis 6pcs,19550,7,200
+Takoyaki Cober Villa - Gunung Putri,Takoyaki bakso 6pcs,19550,4,100
+Takoyaki Cober Villa - Gunung Putri,Takoyaki kornet 6pcs,19500,9,100
+Takoyaki Cober Villa - Gunung Putri,Takoyaki roll ikan 6pcs,20500,3,30
+Takoyaki Cober Villa - Gunung Putri,Takoyaki mozarella 6pcs,21250,13,300
+Takoyaki Cober Villa - Gunung Putri,Takoyaki kepiting 6pcs,21250,6,100
+Takoyaki Cober Villa - Gunung Putri,Takoyaki gurita olahan 6pcs,21250,15,300
+Takoyaki Cober Villa - Gunung Putri,Takoyaki sosis 10pcs,30000,2,87
+Takoyaki Cober Villa - Gunung Putri,Takoyaki bakso 10pcs,30000,5,69
+Takoyaki Cober Villa - Gunung Putri,Takoyaki kornet 10pcs,30000,2,52
+Takoyaki Cober Villa - Gunung Putri,Takoyaki roll ikan 10pcs,31200,0,18
+Takoyaki Cober Villa - Gunung Putri,Takoyaki mozarella 10pcs,33000,15,200
+Takoyaki Cober Villa - Gunung Putri,(Buy 2 get 3) 6 kornet+ 6 sosis+ 6 fishroll,52500,0,16
+Takoyaki Cober - pd kelapa,Takoyaki sosis 6 pcs,19550,3,23
+Takoyaki Cober - pd kelapa,Takoyaki kornet 6 pcs,19550,0,26
+Takoyaki Cober - pd kelapa,Takoyaki bakso 6 pcs,19550,0,4
+Takoyaki Cober - pd kelapa,Takoyaki fishroll 6 pcs,20300,0,2
+Takoyaki Cober - pd kelapa,Takoyaki kepiting 6 pcs,21350,1,15
+Takoyaki Cober - pd kelapa,Takoyaki Mozarella 6 pcs,21250,0,44
+Takoyaki Cober - pd kelapa,Takoyaki kepiting 10 pcs,33000,0,3
+Takoyaki Cober - pd kelapa,Takoyaki Mozarella 10 pcs,33000,1,17
+Takoyaki Cober - pd kelapa,Takoyaki gurita olahan 10 pcs,33000,3,35
+Takoyaki Cober - pd kelapa,Takoyaki mix 10 pcs,33000,4,74
+Takoyaki Cober - pd kelapa,Takoyaki sosis 15 pcs,39950,1,10
+Takoyaki Cober - pd kelapa,Takoyaki kornet 15 pcs,39650,0,6
+Takoyaki Cober - pd kelapa,Takoyaki gurita olahan 6 pcs,21350,1,42
+Takoyaki Cober - pd kelapa,Takoyaki mix 6 pcs,21250,2,42
+Takoyaki Cober - pd kelapa,Takoyaki sosis 10 pcs,27200,0,14
+Takoyaki Cober - pd kelapa,Takoyaki kornet 10 pcs,27200,0,8
+Takoyaki Cober - pd kelapa,Takoyaki bakso 10 pcs,27000,0,4
+Takoyaki Cober - pd kelapa,Takoyaki fishroll 10 pcs,30000,0,0
+Takoyaki Cober - pd kelapa,Takoyaki bakso 15 pcs,39650,0,0
+Takoyaki Cober - pd kelapa,Takoyaki fishroll 15 pcs,40950,1,6
+Takoyaki Cober - pd kelapa,Takoyaki kepiting 15 pcs,42250,0,13
+Takoyaki Cober - pd kelapa,Takoyaki Mozarella 15 pcs,42250,6,40
+Takoyaki Cober - pd kelapa,Takoyaki gurita olahan 15 pcs,42500,5,91
+Takoyaki Cober - pd kelapa,Takoyaki mix 15 pcs,42500,6,100
+Takoyaki Cober - pd kelapa,15pcs Mozarella+15pcs kepiting+6pcs fishroll,86800,0,4
+Takoyaki Cober - pd kelapa,15pcs gurita olahan+15pcs Mozarella+6pcs fishroll,86800,0,1
+Takoyaki Cober - pd kelapa,15pcs Kepiting+15 gurita olahan+6pcs fishroll,86800,0,6
+Takoyaki Cober - pd kelapa,15pcs kornet+15pcs sosis+6pcs fishroll,81900,0,1
+Takoyaki Cober - pd kelapa,6pcs gurita olahan+6pcs kepiting+6pcs sosis,52500,0,7
+Takoyaki Cober - pd kelapa,6pcs gurita olahan+6pcs Mozarella+6pcs sosis,52500,0,16
+Takoyaki Cober - pd kelapa,6pcs kepiting+6pcs Mozarella+6pcs sosis,52500,0,2
+Takoyaki Cober - pd kelapa,6pcs sosis+6pcs kornet+6pcs bakso,49000,0,1
+Takoyaki Cober - Kayuringin,Takoyaki gurita olahan 6pcs,17500,5,200
+Takoyaki Cober - Kayuringin,Takoyaki sosis 10pcs,30000,6,60
+Takoyaki Cober - Kayuringin,Takoyaki kornet 10pcs,30000,0,40
+Takoyaki Cober - Kayuringin,Takoyaki bakso 10pcs,30000,0,21
+Takoyaki Cober - Kayuringin,Takoyaki foshroll 10pcs,31200,1,7
+Takoyaki Cober - Kayuringin,Takoyaki mozarella 10pcs,33000,2,100
+Takoyaki Cober - Kayuringin,Takoyaki kepiting 10pcs,33000,0,21
+Takoyaki Cober - Kayuringin,Takoyaki gurita olahan 10pcs,33000,6,100
+Takoyaki Cober - Kayuringin,Takoyaki sosis 15pcs,39650,1,33
+Takoyaki Cober - Kayuringin,Takoyaki bakso 15pcs,39650,1,19
+Takoyaki Cober - Kayuringin,Takoyaki kornet 15pcs,39500,2,30
+Takoyaki Cober - Kayuringin,Takoyaki fishroll 15pcs,40750,0,11
+Takoyaki Cober - Kayuringin,Takotaki sosis 6pcs,16100,7,100
+Takoyaki Cober - Kayuringin,Takoyaki bakso 6pcs,16100,6,61
+Takoyaki Cober - Kayuringin,Takoyaki kornet 6pcs,16100,1,53
+Takoyaki Cober - Kayuringin,Takoyaki fishroll 6pcs,16800,0,28
+Takoyaki Cober - Kayuringin,Takoyaki mozarella 6pcs,17500,5,100
+Takoyaki Cober - Kayuringin,Takoyaki kepiting 6pcs,17500,6,74
+Takoyaki Cober - Kayuringin,Takoyaki mozarella 15pcs,42000,10,100
+Takoyaki Cober - Kayuringin,Takoyaki kepiting 15pcs,41600,1,32
+Takoyaki Cober - Kayuringin,Takoyaki gurita olahan 15pcs,42000,10,400
