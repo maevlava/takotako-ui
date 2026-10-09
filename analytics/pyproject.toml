@@ -1,0 +1,18 @@
+[project]
+name = "analytics"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "cairosvg>=2.9.1",
+    "ipykernel>=7.4.0",
+    "jupyter-client>=8.10.0",
+    "jupyterlab>=4.6.4",
+    "matplotlib>=3.11.2",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "pnglatex>=1.1",
+    "pynvim>=0.6.0",
+    "pyperclip>=1.11.0",
+    "seaborn>=0.13.2",
+]
