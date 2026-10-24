@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Canvas } from "../components/Canvas";
-import IngredientsTable from "../components/IngredientsTable";
-import MenusGrid from "../components/MenusGrid";
+import { Canvas } from "../components/common/Canvas";
+import IngredientsTable from "../components/hpp/IngredientsTable";
+import MenusGrid from "../components/hpp/MenusGrid";
 
 const sections = ["Menus", "Ingredients"] as const;
 type Section = (typeof sections)[number];

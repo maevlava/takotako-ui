@@ -1,6 +1,6 @@
 import { Triangle } from "lucide-react";
-import { formatRupiah, isImage } from "../data/ingredients";
-import { outletMargin, outletNet, type Outlet, type OutletDelta } from "../data/outlets";
+import { formatRupiah, isImage } from "../../data/ingredients";
+import { outletMargin, outletNet, type Outlet, type OutletDelta } from "../../data/outlets";
 
 function Delta({ delta, format }: { delta: OutletDelta; format: (value: number) => string }) {
     if (delta.percent === 0 && delta.value === 0) {

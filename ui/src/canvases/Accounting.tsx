@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Canvas } from "../components/Canvas";
-import AccountingSummary from "../components/AccountingSummary";
-import EntriesTable from "../components/EntriesTable";
-import FinancialStatements from "../components/FinancialStatements";
-import InventoryAccounting from "../components/InventoryAccounting";
-import UnitEconomics from "../components/UnitEconomics";
+import { Canvas } from "../components/common/Canvas";
+import AccountingSummary from "../components/accounting/AccountingSummary";
+import EntriesTable from "../components/accounting/EntriesTable";
+import FinancialStatements from "../components/accounting/FinancialStatements";
+import InventoryAccounting from "../components/accounting/InventoryAccounting";
+import UnitEconomics from "../components/accounting/UnitEconomics";
 import { useAccounting } from "../hooks/useAccounting";
 import type { Entry } from "../data/accounting";
 

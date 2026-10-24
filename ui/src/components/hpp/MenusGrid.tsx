@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Plus } from "lucide-react";
-import { useIngredients } from "../hooks/useIngredients";
-import { useMenus } from "../hooks/useMenus";
-import { menuCategories, type MenuCategory, type MenuItem } from "../data/menus";
+import { useIngredients } from "../../hooks/useIngredients";
+import { useMenus } from "../../hooks/useMenus";
+import { menuCategories, type MenuCategory, type MenuItem } from "../../data/menus";
 import MenuCard from "./MenuCard";
 import MenuBuilder from "./MenuBuilder";
 
@@ -75,7 +75,8 @@ export default function MenusGrid() {
                         ingredients={ingredients}
                         onEdit={() => openEdit(menu)}
                         onDelete={() => remove(menu.id)}
-                        onMarginChange={(value) => update(menu.id, { margin: value })}
+                        onPortionChange={(value) => update(menu.id, { portionSize: value })}
+                        onPriceChange={(value) => update(menu.id, { price: value })}
                     />
                 ))}
             </div>

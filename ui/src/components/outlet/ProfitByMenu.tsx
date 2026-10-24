@@ -1,6 +1,6 @@
-import { formatRupiah, type Ingredient } from "../data/ingredients";
-import { menuCost, type MenuItem } from "../data/menus";
-import type { Order } from "../data/orders";
+import { formatRupiah, type Ingredient } from "../../data/ingredients";
+import { menuCost, type MenuItem } from "../../data/menus";
+import type { Order } from "../../data/orders";
 
 interface ProfitRow {
     menuId: string;

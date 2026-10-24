@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { X } from "lucide-react";
-import { categoriesFor, type Entry, type EntryType, typeLabel } from "../data/accounting";
-import { seedOutlets } from "../data/outlets";
-import { fieldBoxClass, noSpinner } from "../lib/ui";
+import { categoriesFor, type Entry, type EntryType, typeLabel } from "../../data/accounting";
+import { seedOutlets } from "../../data/outlets";
+import { fieldBoxClass, noSpinner } from "../../lib/ui";
 
 interface EntryModalProps {
     type: EntryType;

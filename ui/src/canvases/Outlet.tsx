@@ -1,6 +1,6 @@
-import { Canvas } from "../components/Canvas";
-import OutletCard from "../components/OutletCard";
-import OutletDetail from "../components/OutletDetail";
+import { Canvas } from "../components/common/Canvas";
+import OutletCard from "../components/outlet/OutletCard";
+import OutletDetail from "../components/outlet/OutletDetail";
 import { seedOutlets } from "../data/outlets";
 
 interface OutletProps {

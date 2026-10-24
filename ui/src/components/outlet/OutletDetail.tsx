@@ -1,17 +1,17 @@
 import { useMemo, useState, type ReactNode } from "react";
 import { ArrowLeft } from "lucide-react";
-import { Canvas } from "../components/Canvas";
-import ProportionBar from "../components/ProportionBar";
-import ProfitByMenu from "../components/ProfitByMenu";
-import OrdersTable from "../components/OrdersTable";
-import OrderEditModal from "../components/OrderEditModal";
-import PrepsPanel from "../components/PrepsPanel";
-import { useOrders } from "../hooks/useOrders";
-import { useMenus } from "../hooks/useMenus";
-import { useIngredients } from "../hooks/useIngredients";
-import { isImage } from "../data/ingredients";
-import { demographics, ordersByHour, ordersByMenu, type Order } from "../data/orders";
-import type { Outlet } from "../data/outlets";
+import { Canvas } from "../common/Canvas";
+import ProportionBar from "../common/ProportionBar";
+import ProfitByMenu from "./ProfitByMenu";
+import OrdersTable from "./OrdersTable";
+import OrderEditModal from "./OrderEditModal";
+import PrepsPanel from "./PrepsPanel";
+import { useOrders } from "../../hooks/useOrders";
+import { useMenus } from "../../hooks/useMenus";
+import { useIngredients } from "../../hooks/useIngredients";
+import { isImage } from "../../data/ingredients";
+import { demographics, ordersByHour, ordersByMenu, type Order } from "../../data/orders";
+import type { Outlet } from "../../data/outlets";
 
 function Panel({ title, children, className = "" }: { title: string; children: ReactNode; className?: string }) {
     return (

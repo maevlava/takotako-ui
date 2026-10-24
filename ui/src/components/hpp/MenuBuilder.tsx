@@ -7,9 +7,17 @@ import {
     lineCost,
     unitsForUnit,
     type Ingredient,
-} from "../data/ingredients";
-import { findIngredient, menuCategories, type MenuCategory, type MenuItem, type RecipeLine } from "../data/menus";
-import { fieldBoxClass, noSpinner } from "../lib/ui";
+} from "../../data/ingredients";
+import {
+    findIngredient,
+    menuCategories,
+    menuPortionSize,
+    menuPrice,
+    type MenuCategory,
+    type MenuItem,
+    type RecipeLine,
+} from "../../data/menus";
+import { fieldBoxClass, noSpinner } from "../../lib/ui";
 
 interface MenuBuilderProps {
     initial?: MenuItem;
@@ -24,6 +32,9 @@ export default function MenuBuilder({ initial, ingredients, onSave, onClose }: M
     const [image, setImage] = useState(initial?.image ?? "🍽️");
     const [category, setCategory] = useState<MenuCategory>(initial?.category ?? "Takoyaki");
     const [recipe, setRecipe] = useState<RecipeLine[]>(initial?.recipe ?? []);
+    const [yieldQty, setYieldQty] = useState(initial?.yieldQty ?? 1);
+    const [portionSize, setPortionSize] = useState(initial ? menuPortionSize(initial) : 1);
+    const [price, setPrice] = useState(initial ? Math.round(menuPrice(initial, ingredients)) : 0);
     const [query, setQuery] = useState("");
 
     useEffect(() => {
@@ -39,10 +50,16 @@ export default function MenuBuilder({ initial, ingredients, onSave, onClose }: M
         return q ? ingredients.filter((item) => item.name.toLowerCase().includes(q)) : ingredients;
     }, [ingredients, query]);
 
-    const total = recipe.reduce((sum, line) => {
+    const batchTotal = recipe.reduce((sum, line) => {
         const ingredient = findIngredient(ingredients, line);
         return ingredient ? sum + lineCost(ingredient, line.qty, line.unit) : sum;
     }, 0);
+    const output = Number.isFinite(yieldQty) && yieldQty > 0 ? yieldQty : 1;
+    const perPiece = batchTotal / output;
+    const portion = Number.isFinite(portionSize) && portionSize >= 1 ? Math.floor(portionSize) : 1;
+    const priceValue = Number.isFinite(price) && price >= 0 ? price : 0;
+    const portionCost = perPiece * portion;
+    const margin = priceValue > 0 ? ((priceValue - portionCost) / priceValue) * 100 : 0;
 
     const addLine = (ingredient: Ingredient) =>
         setRecipe((prev) => [
@@ -68,6 +85,9 @@ export default function MenuBuilder({ initial, ingredients, onSave, onClose }: M
             image: image.trim() || "🍽️",
             category,
             recipe,
+            yieldQty: Math.max(1, Math.floor(output)),
+            portionSize: portion,
+            price: priceValue,
         });
     };
 
@@ -129,10 +149,35 @@ export default function MenuBuilder({ initial, ingredients, onSave, onClose }: M
                                     </option>
                                 ))}
                             </select>
+                            <div className="grid grid-cols-2 gap-2">
+                                <label className="flex flex-col gap-1">
+                                    <span className="text-xs text-faint">Isi / porsi (pcs)</span>
+                                    <input
+                                        type="number"
+                                        min={1}
+                                        value={portionSize}
+                                        onChange={(event) => setPortionSize(Number(event.target.value))}
+                                        className={`${fieldBoxClass} ${noSpinner} text-sm text-fg`}
+                                    />
+                                </label>
+                                <label className="flex flex-col gap-1">
+                                    <span className="text-xs text-faint">Harga jual / porsi</span>
+                                    <input
+                                        type="number"
+                                        min={0}
+                                        value={price}
+                                        onChange={(event) => setPrice(Number(event.target.value))}
+                                        className={`${fieldBoxClass} ${noSpinner} text-sm text-fg`}
+                                    />
+                                </label>
+                            </div>
                         </div>
 
                         <div className="flex flex-col gap-3 border-t border-border pt-4">
-                            <p className="text-xs uppercase tracking-wide text-faint">Resep</p>
+                            <div className="flex items-center justify-between gap-2">
+                                <p className="text-xs uppercase tracking-wide text-faint">Resep</p>
+                                <span className="text-xs text-faint">bahan untuk 1 batch</span>
+                            </div>
                             <div className="flex flex-col gap-2">
                                 {recipe.map((line, index) => {
                                     const ingredient = findIngredient(ingredients, line);
@@ -179,6 +224,24 @@ export default function MenuBuilder({ initial, ingredients, onSave, onClose }: M
                                     <p className="text-xs text-faint">Belum ada bahan. Pilih dari daftar di samping.</p>
                                 )}
                             </div>
+                            <div className="flex items-center justify-between gap-3 rounded-lg border border-border bg-surface px-3 py-2">
+                                <div className="flex flex-col">
+                                    <span className="text-sm text-fg">Hasil jadi</span>
+                                    <span className="text-xs text-faint">
+                                        Satu batch resep ini menghasilkan berapa pcs?
+                                    </span>
+                                </div>
+                                <div className="flex items-center gap-1.5">
+                                    <input
+                                        type="number"
+                                        min={1}
+                                        value={yieldQty}
+                                        onChange={(event) => setYieldQty(Number(event.target.value))}
+                                        className={`${fieldBoxClass} ${noSpinner} w-16 px-2 py-1 text-right text-sm text-fg`}
+                                    />
+                                    <span className="text-xs text-muted">pcs</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -215,7 +278,22 @@ export default function MenuBuilder({ initial, ingredients, onSave, onClose }: M
 
                 <footer className="flex items-center justify-between border-t border-border px-5 py-3">
                     <span className="text-sm text-muted">
-                        Total: <span className="font-semibold text-green">{formatRupiah(total)}</span>
+                        Total batch: <span className="font-semibold text-green">{formatRupiah(batchTotal)}</span>
+                        {output > 1 && (
+                            <>
+                                {" · "}
+                                Per pcs: <span className="font-semibold text-green">{formatRupiah(perPiece)}</span>
+                            </>
+                        )}
+                        {priceValue > 0 && (
+                            <>
+                                {" · "}
+                                Margin:{" "}
+                                <span className={`font-semibold ${margin >= 0 ? "text-green" : "text-red"}`}>
+                                    {margin.toFixed(1)}%
+                                </span>
+                            </>
+                        )}
                     </span>
                     <div className="flex items-center gap-2">
                         <button

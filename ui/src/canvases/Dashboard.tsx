@@ -1,8 +1,8 @@
 import { useMemo, useState } from "react";
-import { Canvas } from "../components/Canvas";
-import BarList from "../components/BarList";
-import RevenueChart from "../components/RevenueChart";
-import TimeframeTabs from "../components/TimeframeTabs";
+import { Canvas } from "../components/common/Canvas";
+import BarList from "../components/dashboard/BarList";
+import RevenueChart from "../components/dashboard/RevenueChart";
+import TimeframeTabs from "../components/dashboard/TimeframeTabs";
 import { formatRupiah } from "../data/ingredients";
 import { aggregate, combineRevenue, outletRevenues, type Timeframe } from "../data/revenue";
 

@@ -1,8 +1,8 @@
 import { useState, type ReactNode } from "react";
-import { formatRupiah } from "../data/ingredients";
-import { byCategory, inPeriod, periodRange, type Entry, type Period } from "../data/accounting";
-import { computeBalanceSheet, computeCash, computeInventoryValue, computePl } from "../data/finance";
-import { useIngredients } from "../hooks/useIngredients";
+import { formatRupiah } from "../../data/ingredients";
+import { byCategory, inPeriod, periodRange, type Entry, type Period } from "../../data/accounting";
+import { computeBalanceSheet, computeCash, computeInventoryValue, computePl } from "../../data/finance";
+import { useIngredients } from "../../hooks/useIngredients";
 import MetricRow from "./MetricRow";
 import PeriodTabs from "./PeriodTabs";
 

@@ -10,12 +10,12 @@ import {
     normalizeUrl,
     totalStock,
     type Ingredient,
-} from "../data/ingredients";
-import { useIngredients } from "../hooks/useIngredients";
-import { columnDivider, fieldClass, noSpinner } from "../lib/ui";
-import { batchLevel, effectivePar, itemDaysToNext, itemLevel, levelMeta } from "../data/warehouse";
-import IngredientIcon from "./IngredientIcon";
-import SortHeader from "./SortHeader";
+} from "../../data/ingredients";
+import { useIngredients } from "../../hooks/useIngredients";
+import { columnDivider, fieldClass, noSpinner } from "../../lib/ui";
+import { batchLevel, effectivePar, itemDaysToNext, itemLevel, levelMeta } from "../../data/warehouse";
+import IngredientIcon from "../common/IngredientIcon";
+import SortHeader from "../common/SortHeader";
 import RestockModal, { type RestockUpdate } from "./RestockModal";
 import LevelSettingsModal from "./LevelSettingsModal";
 

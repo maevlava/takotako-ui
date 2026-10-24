@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { formatRupiah } from "../data/ingredients";
-import { byCategory, dailyTrend, inPeriod, periodRange, summarize, type Entry, type Period } from "../data/accounting";
-import ProportionBar from "./ProportionBar";
+import { formatRupiah } from "../../data/ingredients";
+import { byCategory, dailyTrend, inPeriod, periodRange, summarize, type Entry, type Period } from "../../data/accounting";
+import ProportionBar from "../common/ProportionBar";
 import PeriodTabs from "./PeriodTabs";
 
 function Trend({ data }: { data: { date: string; income: number; expense: number }[] }) {

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { X } from "lucide-react";
-import type { Ingredient } from "../data/ingredients";
-import { effectivePar, itemThresholds } from "../data/warehouse";
-import { fieldBoxClass, noSpinner } from "../lib/ui";
+import type { Ingredient } from "../../data/ingredients";
+import { effectivePar, itemThresholds } from "../../data/warehouse";
+import { fieldBoxClass, noSpinner } from "../../lib/ui";
 
 interface LevelSettingsModalProps {
     item: Ingredient;

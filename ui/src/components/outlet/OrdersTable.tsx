@@ -1,11 +1,11 @@
 import { Fragment, useState } from "react";
 import { ChevronRight, Download, Pencil, Upload } from "lucide-react";
-import { formatRupiah } from "../data/ingredients";
-import { formatDay, type Order } from "../data/orders";
-import { importOrderRows, orderTemplate } from "../data/import";
-import { downloadCsv } from "../lib/csv";
-import { columnDivider } from "../lib/ui";
-import ImportDialog from "./ImportDialog";
+import { formatRupiah } from "../../data/ingredients";
+import { formatDay, type Order } from "../../data/orders";
+import { importOrderRows, orderTemplate } from "../../data/import";
+import { downloadCsv } from "../../lib/csv";
+import { columnDivider } from "../../lib/ui";
+import ImportDialog from "../common/ImportDialog";
 
 interface OrdersTableProps {
     orders: Order[];

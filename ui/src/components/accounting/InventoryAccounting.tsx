@@ -1,10 +1,10 @@
 import { useState, type ReactNode } from "react";
-import { formatRupiah, totalStock, type Ingredient } from "../data/ingredients";
-import { inPeriod, periodRange, type Entry, type Period } from "../data/accounting";
-import { computeInventoryAccounting } from "../data/finance";
-import { useIngredients } from "../hooks/useIngredients";
-import { useMenus } from "../hooks/useMenus";
-import { useOrders } from "../hooks/useOrders";
+import { formatRupiah, totalStock, type Ingredient } from "../../data/ingredients";
+import { inPeriod, periodRange, type Entry, type Period } from "../../data/accounting";
+import { computeInventoryAccounting } from "../../data/finance";
+import { useIngredients } from "../../hooks/useIngredients";
+import { useMenus } from "../../hooks/useMenus";
+import { useOrders } from "../../hooks/useOrders";
 import MetricRow from "./MetricRow";
 import PeriodTabs from "./PeriodTabs";
 

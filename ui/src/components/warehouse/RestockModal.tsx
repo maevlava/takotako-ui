@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Check, X } from "lucide-react";
-import { totalStock, type Ingredient } from "../data/ingredients";
-import { effectivePar, levelMeta, stockLevel } from "../data/warehouse";
-import { fieldBoxClass, noSpinner } from "../lib/ui";
+import { totalStock, type Ingredient } from "../../data/ingredients";
+import { effectivePar, levelMeta, stockLevel } from "../../data/warehouse";
+import { fieldBoxClass, noSpinner } from "../../lib/ui";
 
 export interface RestockUpdate {
     id: string;

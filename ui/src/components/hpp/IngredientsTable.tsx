@@ -7,13 +7,13 @@ import {
     isUrl,
     normalizeUrl,
     type Category,
-} from "../data/ingredients";
-import { importIngredientRows, ingredientTemplate } from "../data/import";
-import { useIngredients } from "../hooks/useIngredients";
-import { columnDivider, fieldClass, noSpinner } from "../lib/ui";
-import IngredientIcon from "./IngredientIcon";
-import ImportDialog from "./ImportDialog";
-import SortHeader from "./SortHeader";
+} from "../../data/ingredients";
+import { importIngredientRows, ingredientTemplate } from "../../data/import";
+import { useIngredients } from "../../hooks/useIngredients";
+import { columnDivider, fieldClass, noSpinner } from "../../lib/ui";
+import IngredientIcon from "../common/IngredientIcon";
+import ImportDialog from "../common/ImportDialog";
+import SortHeader from "../common/SortHeader";
 
 type SortKey = "name" | "category" | "price" | "supplier";
 

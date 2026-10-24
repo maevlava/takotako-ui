@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { X } from "lucide-react";
-import type { Ingredient } from "../data/ingredients";
-import type { Prep } from "../data/preps";
-import { fieldBoxClass, noSpinner } from "../lib/ui";
+import type { Ingredient } from "../../data/ingredients";
+import type { Prep } from "../../data/preps";
+import { fieldBoxClass, noSpinner } from "../../lib/ui";
 
 export interface PrepReturn {
     index: number;

@@ -1,4 +1,4 @@
-import type { Period } from "../data/accounting";
+import type { Period } from "../../data/accounting";
 
 const periods: { id: Period; label: string }[] = [
     { id: "month", label: "Bulan ini" },

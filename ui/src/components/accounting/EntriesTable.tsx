@@ -1,13 +1,13 @@
 import { useMemo, useState } from "react";
 import { Download, Pencil, Plus, Search, Trash2, Upload } from "lucide-react";
-import { formatRupiah } from "../data/ingredients";
-import { formatDay } from "../data/orders";
-import { type Entry, type EntryType } from "../data/accounting";
-import { seedOutlets } from "../data/outlets";
-import { accountingTemplate, importAccountingRows } from "../data/import";
-import { downloadCsv } from "../lib/csv";
+import { formatRupiah } from "../../data/ingredients";
+import { formatDay } from "../../data/orders";
+import { type Entry, type EntryType } from "../../data/accounting";
+import { seedOutlets } from "../../data/outlets";
+import { accountingTemplate, importAccountingRows } from "../../data/import";
+import { downloadCsv } from "../../lib/csv";
 import EntryModal from "./EntryModal";
-import ImportDialog from "./ImportDialog";
+import ImportDialog from "../common/ImportDialog";
 
 interface EntriesTableProps {
     type: EntryType;

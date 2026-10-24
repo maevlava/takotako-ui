@@ -1,4 +1,4 @@
-import type { Timeframe } from "../data/revenue";
+import type { Timeframe } from "../../data/revenue";
 
 const timeframes: { id: Timeframe; label: string }[] = [
     { id: "daily", label: "Harian" },

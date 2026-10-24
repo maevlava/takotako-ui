@@ -1,5 +1,5 @@
-import { Canvas } from "../components/Canvas";
-import WarehouseTable from "../components/WarehouseTable";
+import { Canvas } from "../components/common/Canvas";
+import WarehouseTable from "../components/warehouse/WarehouseTable";
 
 export default function Warehouse() {
     return (

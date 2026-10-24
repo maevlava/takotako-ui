@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Download, Upload, X } from "lucide-react";
-import { downloadCsv, parseCsv, toObjects } from "../lib/csv";
-import { fieldBoxClass } from "../lib/ui";
+import { downloadCsv, parseCsv, toObjects } from "../../lib/csv";
+import { fieldBoxClass } from "../../lib/ui";
 
 interface ImportDialogProps {
     title: string;

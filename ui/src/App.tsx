@@ -1,6 +1,6 @@
 import { Fragment, useState, type ReactNode } from "react";
 import "./App.css";
-import { Sidebar, SidebarItem, SidebarSubItem } from "./components/Sidebar";
+import { Sidebar, SidebarItem, SidebarSubItem } from "./components/common/Sidebar";
 import {
     LayoutDashboard,
     Warehouse as WarehouseIcon,

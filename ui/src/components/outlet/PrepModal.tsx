@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { Plus, Trash2, X } from "lucide-react";
-import { formatRupiah, lineCost, totalStock, type Ingredient } from "../data/ingredients";
-import type { Prep, PrepItem } from "../data/preps";
-import { fieldBoxClass, noSpinner } from "../lib/ui";
+import { formatRupiah, lineCost, totalStock, type Ingredient } from "../../data/ingredients";
+import type { Prep, PrepItem } from "../../data/preps";
+import { fieldBoxClass, noSpinner } from "../../lib/ui";
 
 interface PrepModalProps {
     ingredients: Ingredient[];

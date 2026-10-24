@@ -1,4 +1,4 @@
-import { isImage } from "../data/ingredients";
+import { isImage } from "../../data/ingredients";
 
 interface IngredientIconProps {
     value: string;

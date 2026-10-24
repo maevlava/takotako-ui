@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { rupiahShort } from "../data/accounting";
-import { formatRupiah } from "../data/ingredients";
-import type { RevenueBucket } from "../data/revenue";
+import { rupiahShort } from "../../data/accounting";
+import { formatRupiah } from "../../data/ingredients";
+import type { RevenueBucket } from "../../data/revenue";
 
 const WIDTH = 840;
 const HEIGHT = 300;

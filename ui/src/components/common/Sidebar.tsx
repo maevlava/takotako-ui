@@ -1,5 +1,5 @@
 import { ChevronFirst, ChevronLast } from "lucide-react"
-import octopus from "../assets/octoto.png"
+import octopus from "../../assets/octoto.png"
 import { createContext, useContext, useState, type ReactNode } from "react"
 
 interface SidebarProps {
